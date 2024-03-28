@@ -62,7 +62,7 @@ with col1:
         # Adding the uploaded image to the page with a caption
         st.image(source_img,
                  caption="Uploaded Image",
-                 use_column_width=True
+                #  use_column_width=True
                  )
 
 try:
@@ -79,7 +79,7 @@ if st.sidebar.button('Detect Objects'):
     with col2:
         st.image(res_plotted,
                  caption='Detected Image',
-                 use_column_width=True
+                #  use_column_width=True
                  )
         try:
             with st.expander("Detection Results"):
