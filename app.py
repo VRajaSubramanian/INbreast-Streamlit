@@ -38,8 +38,9 @@ st.markdown("""
 """, unsafe_allow_html=True)
 st.write("---")  # Add a horizontal line for separation
 st.markdown("""
-<div> 
+<div style="text-align: center; font-weight: bold;" > 
              <h5>Breast Mass Detection  in INbreast Dataset</h5>
+             <h6>Upload an Image from INbreast dataset</h6>
 </div>
 """, unsafe_allow_html=True)
 
@@ -49,10 +50,6 @@ with st.sidebar:
         "Upload an image...", type=("jpg", "jpeg", "png", 'bmp', 'webp'))
     confidence = float(st.slider(
         "Select Model Confidence", 25, 100, 40)) / 100
-
-
-st.caption('Upload an Image from INbreast dataset')
-
 
 # Creating two columns on the main page
 col1, col2 = st.columns(2)
