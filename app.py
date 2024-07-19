@@ -31,7 +31,7 @@ st.markdown(font_family, unsafe_allow_html=True)
 # Display the header text at the top, bold and center-aligned
 st.markdown("""
 <div style="text-align: center; font-weight: bold;">
-    <h4>Breast Mass Detection in Mammography Images based on Improved Deep Transformed Model</h4>
+    <h4>Oncologist Assist Smart AI based Breast Mass Detection Application</h4>
     <h5>V. RAJA SUBRAMANIAN - K. VIJAYA GOKUL</h5>
     <h5>Mentor: Dr. B. LAKSHMANAN, Associate Professor</h5>
 </div>
